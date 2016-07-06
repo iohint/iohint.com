@@ -23,3 +23,10 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 [jekyll-docs]: http://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-talk]: https://talk.jekyllrb.com/
+
+<div id='post-test-chart' style='width: 100%; height: 500px'></div>
+
+Woot woot.
+
+<script src="{{ "/assets/javascript/highcharts-4.2.5.js" | prepend: site.baseurl }}" type="text/javascript"></script>
+<script src="{{ "/assets/javascript/welcome-post-test-chart.js" | prepend: site.baseurl }}" type="text/javascript"></script>
